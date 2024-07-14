@@ -21,19 +21,19 @@ function toggleMenu(){
 
 let projects  = [
     {
-        projectImg      :       "PortfolioSampleImg2.png",
+        projectImg      :       "Images/PortfolioSampleImg2.png",
         projectName     :       "Portfolio",
         gitHubLink      :       "https://github.com/Shivaprasad100/ShivaprasadPortfolio",
         liviDemoLink    :       "https://shivaprasad.github.io/ShivaprasadPortfolio",
     },
     {
-        projectImg      :       "C:\\Users\\shiva\\Desktop\\Html-css-course\\Portfolio2\\AmazonInterfaceSampleImg2.png",
+        projectImg      :       "Images/AmazonInterfaceSampleImg2",
         projectName     :       "A Simple Amazon Interface",
         gitHubLink      :       "https://github.cm/Shivaprasad100/AmazonInterface",
         liviDemoLink    :       "https://shivaprasad100.github.io/AmazonInterface",
     },
     {
-        projectImg      :       "./instaView2.png",
+        projectImg      :       "Images/SnakeImage",
         projectName     :       "Snake Game",
         gitHubLink      :       "htpps://github.com/Shivaprasad100/Snake-Game",
         liviDemoLink    :       "https://shivaprasd100.github.io/Snake-Game"
