@@ -1,27 +1,42 @@
- let projects  = [
+const doc = document.querySelector("body");
+
+const navLinks = document.querySelector("#nav-links");
+const hamburgerMain = document.querySelector(".hamburgerMain");
+
+
+const main = document.querySelector(".hamburgerMenu");
+const menuInfo = document.querySelector(".menu-info");
+
+
+
+function toggleMenu(){
+    main.classList.toggle("open");
+    
+    menuInfo.classList.toggle("open");
+
+}
+
+
+
+
+let projects  = [
     {
-        projectImg      :       "./instaView2.png",
-        projectName     :       "Project1",
-        gitHubLink      :       "github.com",
-        liviDemoLink    :       "live.html"
+        projectImg      :       "PortfolioSampleImg2.png",
+        projectName     :       "Portfolio",
+        gitHubLink      :       "https://github.com/Shivaprasad100/ShivaprasadPortfolio",
+        liviDemoLink    :       "https://shivaprasad.github.io/ShivaprasadPortfolio",
+    },
+    {
+        projectImg      :       "C:\\Users\\shiva\\Desktop\\Html-css-course\\Portfolio2\\AmazonInterfaceSampleImg2.png",
+        projectName     :       "A Simple Amazon Interface",
+        gitHubLink      :       "https://github.cm/Shivaprasad100/AmazonInterface",
+        liviDemoLink    :       "https://shivaprasad100.github.io/AmazonInterface",
     },
     {
         projectImg      :       "./instaView2.png",
-        projectName     :       "Project 2",
-        gitHubLink      :       "github.com",
-        liviDemoLink    :       "live.html"
-    },
-    {
-        projectImg      :       "./instaView2.png",
-        projectName     :       "Project 3",
-        gitHubLink      :       "github.com",
-        liviDemoLink    :       "live.html"
-    },
-    {
-        projectImg      :       "./instaView2.png",
-        projectName     :       "Project 4",
-        gitHubLink      :       "github.com",
-        liviDemoLink    :       "live.html"
+        projectName     :       "Snake Game",
+        gitHubLink      :       "htpps://github.com/Shivaprasad100/Snake-Game",
+        liviDemoLink    :       "https://shivaprasd100.github.io/Snake-Game"
     }
 
 ];
@@ -39,8 +54,8 @@ projects.forEach((project) => {
         </div>
         <div class="project-name">${project.projectName} </div>
         <div class="btn-to-go-to-projects-live">
-            <button class="btn github-project-btn">GitHub</button>
-            <button class="btn live-project-btn">Live Demo</button>
+            <button class="btn github-project-btn"><a href="#">GitHub</button>
+            <button class="btn live-project-btn"><a href = "#" > Live Demo </a> </button>
         </div>
 
     </div>`;
