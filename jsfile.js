@@ -33,7 +33,7 @@ let projects  = [
         liviDemoLink    :       "https://shivaprasad100.github.io/AmazonInterface",
     },
     {
-        projectImg      :       "Images/SnakeImage",
+        projectImg      :       "Images/MySnakePic2.png",
         projectName     :       "Snake Game",
         gitHubLink      :       "htpps://github.com/Shivaprasad100/Snake-Game",
         liviDemoLink    :       "https://shivaprasd100.github.io/Snake-Game"
