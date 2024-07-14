@@ -50,7 +50,7 @@ projects.forEach((project) => {
     <div class="each-project-container">
 
         <div class= "project-pic-container">
-            <img src="${project.projectImg}" alt="p1Alt">
+            <img src = ${project.projectImg} alt="p1Alt">
         </div>
         <div class="project-name">${project.projectName} </div>
         <div class="btn-to-go-to-projects-live">
