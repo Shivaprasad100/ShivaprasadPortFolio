@@ -54,8 +54,8 @@ projects.forEach((project) => {
         </div>
         <div class="project-name">${project.projectName} </div>
         <div class="btn-to-go-to-projects-live">
-            <button class="btn github-project-btn"><a href="#">GitHub</button>
-            <button class="btn live-project-btn"><a href = "#" > Live Demo </a> </button>
+            <button class="btn github-project-btn"><a href='${project.gitHubLink}' >GitHub</button>
+            <button class="btn live-project-btn"><a href = '${project.liveDemoLink}' > Live Demo </a> </button>
         </div>
 
     </div>`;
